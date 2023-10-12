@@ -1,5 +1,33 @@
+/* the font type goes here */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Roboto+Slab&display=swap');
+
+.home-title {
+    font-family: "Dancing Script", Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.msg h2 {
+    font-family: "Roboto Slab", sans-serif;
+    font-style: italic;
+}
+.msg {
+    background-color: #291840;
+    line-height: 1.5em;
+}
+
 body {
     background-color: white;
+    font-family: "Roboto slab", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -11,10 +39,15 @@ header {
     max-width: 1600px;
 }
 
+#logo-link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #9babef;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,6 +63,10 @@ nav a:hover {
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid #9babef;
+}
+
 .logo {
     width: 80px;
 }
@@ -42,9 +79,29 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     background-color: #291840;
     height: 725px;
+    margin-bottom: 100px;
+}
+
+.mountains {
+    margin-bottom: 200px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -61,17 +118,30 @@ main section {
     background-color: #291840;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
     background-color: #ebebeb;
     color: #291840;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+    font-size: 0.8em;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer {
     background-color: #ebebeb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -82,4 +152,8 @@ footer p a:hover{
     text-decoration: underline;
     background-color: #291840;
     color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
