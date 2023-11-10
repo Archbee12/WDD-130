@@ -307,8 +307,7 @@ footer .social img {
 
 .rivers-pie {
     align-items: center;
-    margin: 50px;
-    /* width: 100%; */
+    margin: 100px;
 }
 
 h3 {
@@ -317,13 +316,6 @@ h3 {
     border-radius: 10px;
     
 }
-
-/* h4 {
-    display: block;
-    width: 80%;
-    text-align: center;
-    align-items: center;
-} */
 
 .rivers-img {
     border-radius: 30px;
