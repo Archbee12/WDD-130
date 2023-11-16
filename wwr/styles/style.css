@@ -70,6 +70,7 @@ header {
 #content {
     margin: 0 auto;
     max-width: 1600px;
+    max-height: 1600px;
 }
 
 #logo-link {
@@ -232,7 +233,7 @@ main section img {
 footer {
     background-color: #ebebeb;
     padding: 25px 50px;
-    /* margin-top: 200px; */
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -291,7 +292,6 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
-         bottom: 0;
     }
 }
 
@@ -331,17 +331,28 @@ h3 {
 
 /* CSS Styles for Contact Us page */
 
+
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
     width: 600px;
     /* Form outline */
-    padding: 1em;
+    padding: 2em;
     border: 1px solid #ccc;
     border-radius: 1em;
   }
-  
+
+  .contact_title {
+    margin-top: 60px;
+    color: #3650c2;
+  }
+
+  .contact_title, .info {
+    text-align: center;
+  }
+
   ul {
     list-style: none;
     padding: 0;
@@ -397,11 +408,12 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
-    border: none;
-    border-radius: 18px;
-    font-weight: bold;
     cursor: pointer;
-  }
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+  } 
   
   #feedback {
     background-color: antiquewhite;
