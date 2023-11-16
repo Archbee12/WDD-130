@@ -333,13 +333,16 @@ h3 {
 
 
 /* CSS Styles for Contact Us page */
-
+/* #container {
+    box-sizing: border-box;
+    width: 100%;
+} */
 
 form {
     /* Center the form on the page */
     margin: 0 auto;
     margin-top: 50px;
-    width: 400px;
+    width: 350px;
     /* Form outline */
     padding: 1em;
     border: 1px solid #ccc;
@@ -380,7 +383,7 @@ form {
     font: 1em sans-serif;
   
     /* Uniform text field size */
-    width: 300px;
+    width: 250px;
     box-sizing: border-box;
   
     /* Match form field borders */
