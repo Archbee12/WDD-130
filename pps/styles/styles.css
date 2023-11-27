@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 #home-msg, .msg {
-    display: block;
+    /* display: block; */
     margin: 0 0 20px auto;
     padding: 1.5rem;
 }
@@ -106,9 +106,14 @@ nav a:hover {
     font-weight: 800;
 }
 
+.about-img {
+    width: 100%;
+}
+
 #imgdiv {
     margin-top: 0 auto;
-    margin-left: auto;
+    width: 100%;
+    /* margin-left: auto; */
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -179,7 +184,7 @@ footer .social img {
     }
     #imgdiv { 
         margin: 50px auto;
-        width: 100%;
+        /* width: 60%; */
     }
     footer {
         margin-top: 25px;
