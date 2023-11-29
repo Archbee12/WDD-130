@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="styles/styles.css">
+
     <title>Contact Me</title>
 </head>
 <body>
@@ -18,36 +22,38 @@
                 <a href="contactus.html" target="_blank">Contact</a>
             </nav>
         </header>
-        <main id="container">
+        <main">
             <div id="home">
                 <div id="home-msg">
                     <h1 class="contact_title">Contact Me</h1>
                 </div>   
                 <div id="imgdiv">
-                    <img class="contact" src="images/contact2.jpg" alt="contact">
+                    <img class="contact" src="images/contact2.png" alt="contact">
                 </div>      
             </div>
-            <p class="info">Thank you for your interest in getting in touch!<br>
-            <br>Please fill in all information in this form</p>
-            <form action="/my-handling-form-page" method="post" id="form">
-                <ul>
-                    <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                    </li>
-                    <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
-                    <button type="submit">Send your message</button>
-                    </li>
-                </ul>
-            </form>   
+            <div id="info">
+                <p >Thank you for your interest in getting in touch!<br>
+                    <br>Please fill in all information in this form</p>
+                    <form action="/my-handling-form-page" method="post" id="form">
+                        <ul>
+                            <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                            </li>
+                            <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                            </li>
+                            <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                            </li>
+                            <li class="button">
+                            <button type="submit">Send your message</button>
+                            </li>
+                        </ul>
+                    </form>   
+                </div>            
 
             <p class="note">NOTE: If you've got a more casual question, the best place to get in touch is on <a href="https://wa.me/message/2SWO6HTN4XKXJ1" id="link">Whatsapp</a> </p>
         </main>
@@ -69,5 +75,15 @@
         </footer>
 
     </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>

@@ -29,11 +29,6 @@ body {
     display: inline-block;
 }
 
-/* [class*="col-"] {
-    float: left;
-    padding: 15px;
-} */
-
 header {
     background-color: rgba(20, 20, 20, 0.8);
     display: flex;
@@ -55,10 +50,6 @@ header a {
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
-}
-
-.header-right {
-    float: right;
 }
 
 nav {
@@ -99,7 +90,7 @@ nav a:hover {
     grid-template-columns: 2fr 3fr;
 }
 
-#home-msg, .msg, #about-msg {
+#home-msg, .msg, #about-msg, #info {
     display: block;
     margin: 0 0 20px auto;
     padding: 1.5rem;
@@ -175,7 +166,7 @@ footer .social img {
     header a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
     }
 
     .header-right {
@@ -214,8 +205,10 @@ footer .social img {
     }
 }
 
+/* ------------------------ The End of Home Page -------------------------- */
 
-/* Cascading Stylesheet for About Page */
+
+/* ----------------Cascading Stylesheet for About Page ------------------ */
 
 .my-img {
     display: block;
@@ -262,16 +255,23 @@ h2 {
     text-align: center;
 }
 
+/* The End */
+/* -------------------- End of About Page Cascading Sheet ------------------- */
 
-/* Cascading Stylesheet For Contact Page */
+
+/* --------------- Cascading Stylesheet For Contact Page -------------------- */
 
 .contact {
-    width: 500px;
+    /* width: 500px; */
     float: right;
     border-radius: 25px;
     margin-right: 50px;
     margin-top: 40px;
     margin: 0 auto;
+}
+
+#info {
+    text-align: center;
 }
 
 form {
@@ -295,8 +295,8 @@ form {
     text-align: center;
 }
 
-.info {
-    margin-top: 500px;
+#info {
+    margin-top: 50px;
 }
 
 ul {
