@@ -99,7 +99,7 @@ nav a:hover {
 
 .msg, #about-msg, #info {
     display: block;
-    /* margin: 0 0 20px auto; */
+    margin: 0 0 20px auto;
     padding: 1.5rem;
     text-align: justify;
 }
