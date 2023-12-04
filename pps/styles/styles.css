@@ -90,9 +90,16 @@ nav a:hover {
     grid-template-columns: 2fr 3fr;
 }
 
-#home-msg, .msg, #about-msg, #info {
-    display: block;
+#home-msg {
+    /* display: block; */
     margin: 0 0 20px auto;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.msg, #about-msg, #info {
+    display: block;
+    /* margin: 0 0 20px auto; */
     padding: 1.5rem;
     text-align: justify;
 }
@@ -107,7 +114,8 @@ nav a:hover {
 .home-sub {
     font-family: 'Courier New', Courier, monospace;
     color: #283705;
-    font-weight: 800;
+    /* font-weight: 800; */
+    text-align: left;
 }
 
 .about-img {
