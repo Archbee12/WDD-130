@@ -8,7 +8,7 @@
 }
 
 body {
-    /* font-family: Helvetica, sans-serif; */
+    font-family: 'Calibri', Helvetica, sans-serif;
     font-size: 20px;
     margin: 0 auto;
     padding: 0;
@@ -362,6 +362,18 @@ footer .social img {
         }
     }
 
+    @media screen and (max-width: 500px) {
+        header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .header-right {
+          float: none;
+        }
+    }
+
     header a {
         float: none;
         display: block;
@@ -393,14 +405,3 @@ footer .social img {
 }
 
 
-@media screen and (max-width: 500px) {
-    header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .header-right {
-      float: none;
-    }
-}
