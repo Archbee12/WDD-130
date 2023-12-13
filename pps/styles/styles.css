@@ -9,8 +9,8 @@
 }
 
 body {
-    font-family: 'Roboto Slab', Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -45,6 +45,7 @@ header {
 }
 
 header a {
+    font-family: 'Calibri';
     float: left;
     color: rgba(202, 213, 179, 0.768);
     text-align: center;
@@ -57,7 +58,6 @@ header a {
 nav {
     display: flex;
     justify-content: right;
-    font: 'Tahoma';
 }
 
 nav a {
